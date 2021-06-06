@@ -1,0 +1,201 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+.btnmy{
+	border:1px solid black;
+	padding:3px 5px;
+	width:120px;
+	font-weight:bold;
+	font-size:20px;
+	border-radius:20px;
+	position:relative;
+	font-family: 'Roboto', sans-serif;
+	overflow:hidden;
+}
+
+.btnmy::before{
+	content:"";
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:0px;
+	background-color:orange;
+	color:#fff;
+	height:100%;
+	transition:0.6s;
+	border-radius:20px;
+	z-index:-1;
+	font-weight:10px;
+	opacity:0.5;
+}
+.btnmy:hover:before{
+	width:100%;
+	cursor:pointer;
+	color:#fff;
+}
+.form-pop{
+	display:none;
+	background-color:white;
+	padding:35px;
+	font-weight:bold;
+	font-size:18px;
+	position:absolute;
+	top:20%;
+	left:40%;
+	width:360px;
+}
+.mybtn{
+	width:100%;
+	background-color:#346beb;
+	border:none;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+	border-radius:10px;
+}
+.mybtn:hover{
+	cursor:pointer;
+	opacity:0.7;
+	color:white;
+}
+.form-pop p:hover{
+	cursor:pointer;
+}
+.back{
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("back.jpg") no-repeat center center/cover;
+	height:100vh;
+	overflow:auto;
+}
+.box{
+	color:white;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-top:180px;	
+	
+}
+.box a{
+	border:2px solid orange;
+	padding:1px 12px;
+	text-decoration:none;
+	width:170px;
+	background:transparant;
+	color:white;
+	font-size:20px;
+	//border-radius:20px;
+}
+.reviewback {
+	background-color:#fce6f0;
+	font-family: 'Yellowtail', cursive;
+	padding:10px 25px;
+}
+
+.review{
+	display:flex;
+	align-items:center;
+}
+
+.review img{
+	border-radius:50%;
+	width:60px;
+	height:60px;
+}
+.myflex{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.backimg{
+	background:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("trainer.jpg") no-repeat center center/cover;
+	height:70vh;
+	position:relative;
+	overflow:auto;
+}
+.mybox{
+	text-align:center;
+}
+.mission{
+	font-family: 'Chela One', cursive;
+	font-size:4rem;
+	text-align:center;
+}
+.footer{
+	background:linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.9)),url("petCare.jpg") no-repeat center center/cover;
+	height:30vh;
+	
+}
+.footer-text
+{
+	text-align:center;
+	font-size:17px;
+	font-weight:bold;
+	
+	
+}
+.footer-text a:hover{
+	display:block;
+	padding:0 13px;
+	border-radius:10%;
+	background-color:#dadce0;
+	width:100%;
+	height:100%;
+	transition:0.5s;
+}
+
+.footer i{
+	padding:0 10px;
+	background:transparat;
+	width:40px;
+	height:40px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-right:10px;
+	position:relative;
+	border-radius:50%;
+    border:2px solid #83a6de;
+}
+
+.fg{
+	
+	display:flex;
+	margin-right:10px;
+	justify-content:center;
+	align-items:center;	
+}
+.tbox a{
+	padding: 0 15px;
+	font-weight:bold;
+	font-size:16px;	
+	margin:10px;
+	font-family: 'Roboto Slab', serif;
+	border-radius:20px;
+	position:relative;
+}
+.tbox a::before{
+	content:"";
+	
+	position:absolute;
+	top:0;
+	left:0;
+	border-radius:20px;
+	height:100%;
+	width:100%;
+	display:block;
+}
+.tbox a:hover{
+	background-color:#ed9f4c;
+	transform:scale(1.1);
+}
+.card{
+	box-shadow:0 5px 10px rgba(0,0,0,0.5);
+	font-size:18px;
+	font-family: 'Poppins', sans-serif;
+	transition:0.5s;
+}
+.card:hover{
+	transform:translateY(-5px);
+}

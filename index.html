@@ -1,0 +1,159 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="css\bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
+		<script>
+			function login()
+			{	
+				document.getElementById("form-id2").style.display = "none";
+				document.getElementById("form-id").style.display = "block";
+			}
+			function signUp()
+			{	
+				document.getElementById("form-id").style.display = "none";
+				document.getElementById("form-id2").style.display = "block";
+			}
+			function close()
+			{
+				document.getElementById("form-id2").style.display = "none";
+				document.getElementById("form-id").style.display = "none";
+			}
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+			<div class="col-sm-2"><img src="petCare.jpg" width="250px"></div>
+			<div class="offset-sm-8 col-sm-2"><a class="btn btnmy mt-4" onclick="login()" type="submit">Login</a></div>
+		</div></div>
+
+		
+		
+		<div class="container-fluid back">
+			<div class="row">
+			<div class="offset-sm-7 col-sm-1 mt-3 d-flex  tbox text-white">
+			<a>Home</a></div>
+			<div class="col-sm-1 mt-3 d-flex  tbox text-white"><a>PetCare</a></div>
+			<div class="col-sm-1 mt-3 d-flex  tbox text-white"><a>FAQ</a></div>
+			<div class="col-sm-2 mt-3 d-flex  tbox text-white"><a>Contact Us</a></div>
+			
+			<div class="w-100"></div>
+			<div class="offset-sm-3 col-sm-7 box mt-5">
+				<div class="mt-5"><h1 class="mt-5 ">Most Established And Trusted <br>Pet Care Service<br></h1>
+				<h4>Pets are our true friends</h4><br>
+				<a href="#" class="">More Info</a><br>
+			</div></div>
+			<div class="width-100"></div>
+			<form class="form-group form-pop" id="form-id">
+				<button type="button" class="close" aria-label="Close" onclick="close()">
+				<span aria-hidden="true">&times;</span>
+				</button><h2>Login Here</h2>
+				<label class="mt-2">Username</label>
+				<input type="text" class="form-control" required>
+				<label class="mt-2">Password</label>
+				<input type="password" class="form-control" required>
+				<button class="btn mybtn mt-3">Login</button>
+				<p class="text-center mt-3 text-primary" onclick="signUp()">Sign Up</p>
+			</form>
+			<form class="form-group form-pop" id="form-id2">
+				<button type="button" class="close" aria-label="Close" onclick="close()">
+				<span aria-hidden="true">&times;</span>
+				</button><h2>Login Here</h2>
+				<label class="mt-2">Name</label>
+				<input type="text" class="form-control" required>
+				<label class="mt-2">Contact No</label>
+				<input type="text" class="form-control" required>
+				<label class="mt-2">Username</label>
+				<input type="text" class="form-control" required>
+				<label class="mt-2">Password</label>
+				<input type="password" class="form-control" required>
+				<button class="btn mybtn mt-3">Register</button>
+				<p class="text-center mt-3 text-primary" onclick="login()">Log In</p>
+			</form>
+		</div></div>
+		
+		<div class="container mt-5">
+		<center><h1 class="mb-5">Our Service</h1></center>
+		<div class="myflex">
+			
+			<div class="card mr-4" style="width: 13rem;">
+				<img class="card-img-top" src="petGrooming.jpg" alt="Card image cap">
+				<div class="card-body">
+				<p class="card-text">Pet Grooming</p>
+				</div>
+			</div>
+			<div class="card mr-4" style="width: 13rem;">
+				<img class="card-img-top" src="petWalk.jpg" alt="Card image cap">
+				<div class="card-body">
+				<p class="card-text">Pet Walk</p>
+				</div>
+			</div>
+			<div class="card mr-4" style="width: 13rem;">
+				<img class="card-img-top" src="back.jpg" alt="Card image cap">
+				<div class="card-body">
+				<p class="card-text">Care Taker</p>
+				</div>
+			</div>
+			<div class="card mr-4" style="width: 13rem;">
+				<img class="card-img-top" src="trainer.jpg" alt="Card image cap">
+				<div class="card-body">
+				<p class="card-text">Pet Trainer</p>
+				</div>
+			</div>
+		</div>
+		</div>
+		<br><br>
+		<div class="container-fluid backimg mt-4">
+				<div class="row d-flex justify-content-center">
+						<div class="col-sm-8 mybox mt-5"><h2 class="mission mt-2">Our Mission</h2>
+						<h5>To provide the highest caliber in-home pet care services for our cherished clients and their beloved pets. We do this by hiring exceptional employees, providing them with regular ongoing training, and delivering consistently stellar service.</h5></div>
+				</div>
+		</div>
+		<div class="container mt-5">
+			<center><h1 class="mb-5">What Client Says</h1></center>
+			<div class="row d-flex justify-content-center">
+				<div class="col-sm-3 mr-3 reviewback">
+				<div class=""><div class="review mt-2"><img src="https://cdn.pixabay.com/photo/2016/08/25/19/37/man-1620502__340.jpg" class="mr-2">
+				<h5>R.M., Oct. 2, 2020</h5></div>Fetch provides convenient and reliable pet care services. I have used their services several times and they have been great to my pet.Highly recommend it.</div>
+				</div>
+				<div class="col-sm-3 reviewback mr-3">
+				<div class=""><div class="review mt-2"><img src="https://cdn.pixabay.com/photo/2016/08/25/19/37/man-1620502__340.jpg" class="mr-2">
+				<h5>David Bar, Dec. 9, 2020</h5></div>Always reliable, personal service, loves my cat! I never worry about my cat when Fetch is looking after her.</div>
+				</div>
+				<div class="col-sm-3 reviewback ">
+				<div class=""><div class="review mt-2"><img src="https://cdn.pixabay.com/photo/2016/08/25/19/37/man-1620502__340.jpg" class="mr-2">
+				<h5>Karla Deras, Dec.9,2020</h5></div>The services are super convenient and allow me to feel confident that our beloved pet is getting attention while we are away from home.</div>
+			</div></div>
+		</div>
+		<br><br>
+		
+		<div class="container-fluid footer">
+		<div class="footer-text">
+				<div class="row d-flex justify-content-center mt-5">		
+						<div class="col-sm-1 footer-text"><a>Contact</a></div>
+						<div class="col-sm-1 footer-text"><a>Blog</a></div>
+						<div class="col-sm-1 footer-text"><a>Services</a></div>
+						<div class="col-sm-1 footer-text"><a>Follow us</a></div>
+						<div class="w-100 mb-3"></div>
+						<div class="col-sm-3 mt-4 fg"><i class = "fa fa-twitter t1"></i>
+						<i class = "fa fa-whatsapp"></i>
+						<i class = "fa fa-instagram"></i>
+						<i class = "fa fa-youtube"></i></div>
+						
+				</div>
+		</div></div>
+		 
+		
+		<script  src="js\jquery.js"></script>
+		<script src="js\bootstrap.min.js"></script>
+	</body>
+</html>
